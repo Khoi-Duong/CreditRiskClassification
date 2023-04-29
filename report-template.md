@@ -16,24 +16,24 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
 
-              precision    recall  f1-score   support
-
-           0       1.00      0.99      1.00     18765
-           1       0.85      0.91      0.88       619
-
-    accuracy                           0.99     19384
-   macro avg       0.92      0.95      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
+![ClassificationReport Original Data](https://user-images.githubusercontent.com/119692456/235296898-7433c8f8-7e17-4b57-909a-136599a9c104.png)
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+
+![ClassificationReport Resampled Data](https://user-images.githubusercontent.com/119692456/235297017-ae62b8d2-8131-4b7a-b150-3c30e94b86a2.png)
+
 
 ## Summary
+Collected data can be effectively used to train and test the Machine Learning Classification Model. In order to generate more precise/accurate predictions, solving the imbalance sampling issue is important
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Randomly oversampling the data helps us get a higher balanced accuracy and recall scores. With a higher recall value, the model is able to predict risky loans more accurately.
 
-If you do not recommend any of the models, please justify your reasoning.
+With incorrect predictions we have two issues:
+
+    -False Positives (where users are flagged as risky, but are actually healthy)
+
+    -False Negatives (where users are not flagged as risky but are actually risky)
+    
+Both incorrect predictions have negative downsides; as a result, it is important for the model to be as precise and accurate as possible.
