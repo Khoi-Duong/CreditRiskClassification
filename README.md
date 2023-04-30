@@ -17,18 +17,18 @@ In this Challenge, you’ll use various techniques to train and evaluate a model
 ### Files
 Download the following files to help you get started:
 
-1. https://static.bc-edx.com/data/dl-1-2/m20/lms/starter/Starter_Code.zip
+https://static.bc-edx.com/data/dl-1-2/m20/lms/starter/Starter_Code.zip
 
-### Instructions
+# Instructions
 The instructions for this Challenge are divided into the following subsections:
 
-1. Split the Data into Training and Testing Sets
+* Split the Data into Training and Testing Sets
 
-2. Create a Logistic Regression Model with the Original Data
+* Create a Logistic Regression Model with the Original Data
 
-3. Predict a Logistic Regression Model with Resampled Training Data
+* Predict a Logistic Regression Model with Resampled Training Data
 
-4. Write a Credit Risk Analysis Report
+* Write a Credit Risk Analysis Report
 
 ### Split the Data into Training and Testing Sets
 Open the starter code notebook and use it to complete the following steps:
@@ -50,15 +50,15 @@ Use your knowledge of logistic regression to complete the following steps:
 
 3. Evaluate the model’s performance by doing the following:
 
-    -Calculate the accuracy score of the model.
+    * Calculate the accuracy score of the model.
 
-    -Generate a confusion matrix.
+    * Generate a confusion matrix.
 
-    -Print the classification report.
+    * Print the classification report.
 
 4. Answer the following question: 
 
-    -How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+    * How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
 ### Write a Credit Risk Analysis Report
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
@@ -67,15 +67,15 @@ Structure your report by using the report template that Starter_Code.zip include
 
 1. An overview of the analysis: 
 
-    -Explain the purpose of this analysis.
+    * Explain the purpose of this analysis.
 
 2. The results: 
     
-    -Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+    * Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
 3. A summary: 
 
-    -Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the        model, justify your reasoning.
+    * Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the        model, justify your reasoning.
 
 
 
